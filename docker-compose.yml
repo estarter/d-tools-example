@@ -1,0 +1,8 @@
+version: "2"
+services:
+  client:
+    build:
+      context: images/client
+  
+  server:
+    image: estarter/test-smtp-server
